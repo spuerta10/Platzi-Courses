@@ -1,0 +1,4 @@
+links = //h2/a/@href
+titulo = //h2[@data-h = "45"]/span/text()
+resumen = //div[@class = "lead"]/p/text()
+parrafos = //div[@class = "html-content"]/p/text()

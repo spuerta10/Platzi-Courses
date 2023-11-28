@@ -1,0 +1,14 @@
+1
+454677
+323245
+2345
+8995
+456
+12
+Los divisores de 1 son [1]
+Los divisores de 454677 son [1, 3, 31, 93, 4889, 14667, 151559, 454677]
+Los divisores de 323245 son [1, 5, 13, 65, 4973, 24865, 64649, 323245]
+Los divisores de 2345 son [1, 5, 7, 35, 67, 335, 469, 2345]
+Los divisores de 8995 son [1, 5, 7, 35, 257, 1285, 1799, 8995]
+Los divisores de 456 son [1, 2, 3, 4, 6, 8, 12, 19, 24, 38, 57, 76, 114, 152, 228, 456]
+Los divisores de 12 son [1, 2, 3, 4, 6, 12]

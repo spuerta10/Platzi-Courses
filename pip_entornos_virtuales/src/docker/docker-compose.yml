@@ -1,0 +1,21 @@
+#archivo para declarar el como y el donde se va a inciar el contenedor
+
+
+services:
+#nombre del servicio
+  app-csv:
+    build:
+      #construir el servicio desde la carpeta en la que estoy ubicado y en la misma, buscar el Dockerfile
+      context: .
+      dockerfile: Dockerfile
+    #para enlazar el entorno local con el del contenedor
+    volumes: 
+    #todos los archivos que estan dentro de esta carpeta esten enlazados con la carpeta app del contenedor
+      - .:/app 
+
+#para montar el contenedor ejecutar docker-compose build
+#para lanzar el contenedor ejecutar docker-compose up -d 
+#para ver el estado del contenedor ejecutar docker-compose ps 
+#para ejecutar el servicio docker-compose exec nombre_servicio bash
+#para salir del contenedor ejecutar exit
+#para bajar el contenedor ejecutar docker-compose down 
